@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sunny-bg {
+    background-image: url("assets/images/clear-sky.jpg");
+}
+
+.bxShadow {
+    box-shadow: '0 80px 32px red'
+}
+
+.weather-details h2 {
+    @apply text-xl font-bold lg:text-3xl;
+}
+
+.weather-details p {
+    @apply text-lg font-semibold lg:text-xl;
+}
+
+.weather-icon {
+    @apply inline-flex text-5xl mb-1;
+}
+
+.weather-icon-city {
+    @apply inline-flex text-5xl lg:text-7xl mb-1;
+}
+
+.bg {
+    background-image: url('./assets/images/bg.jpg');
+}
